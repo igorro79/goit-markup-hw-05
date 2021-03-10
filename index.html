@@ -60,7 +60,7 @@
       </div>
     </header>
 
-    <!-- HERO -->
+    <!--=========== HERO ============-->
 
     <main>
       <section class="hero-section">
@@ -70,6 +70,19 @@
             <button data-modal-open type="button" class="hero-btn">
               Заказать услугу
             </button>
+            <div class="backdrop is-hidden" data-backdrop>
+              <div class="modal">
+                <button
+                  data-modal-close
+                  type="button"
+                  class="close-button-wrap"
+                >
+                  <svg class="close-button" width="18px" height="18px">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -77,8 +90,6 @@
       <!--=========== приимущества студии ========== -->
 
       <section class="feachers">
-        <!-- скрытый заголовок, Приимущества студии -->
-
         <h2 class="visually-hidden-title">Приимущества студии</h2>
         <div class="container">
           <ul class="feachers-list list" lang="ru">
