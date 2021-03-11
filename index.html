@@ -70,19 +70,6 @@
             <button data-modal-open type="button" class="hero-btn">
               Заказать услугу
             </button>
-            <div class="backdrop is-hidden" data-backdrop>
-              <div class="modal">
-                <button
-                  data-modal-close
-                  type="button"
-                  class="close-button-wrap"
-                >
-                  <svg class="close-button" width="18px" height="18px">
-                    <use href="./images/sprite.svg#icon-close"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -493,6 +480,20 @@
         </div>
       </div>
     </footer>
+    <!-- =========modal window======== -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close type="button" class="close-button-wrap">
+          <svg class="close-button" width="18px" height="18px">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ========== java scripts  ======== -->
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
