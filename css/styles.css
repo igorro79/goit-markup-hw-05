@@ -613,6 +613,10 @@ icon-items-link:focus .team-icons,
   margin-left: -30px;
 }
 
+.project-cards img {
+  display: block;
+  
+}
 .project-cards .items {
   flex-basis: calc(100% / 3 - 60px);
   margin-top: 30px;
@@ -654,6 +658,8 @@ icon-items-link:focus .team-icons,
 
 .card-description {
   padding: 20px 25px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .service-card-name {
