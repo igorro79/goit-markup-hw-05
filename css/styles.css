@@ -161,8 +161,9 @@ a {
 
 .hero-section {
   background-color: var(--grey-bgc);
-}
-.wrap-hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       to left,
       rgba(47, 48, 58, 0.4),
@@ -170,11 +171,8 @@ a {
     ),
     url(../images/hero-bg-opt.jpg);
   background-size: cover;
-  background-position: center;
+
   background-repeat: no-repeat;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-section .container {
@@ -600,7 +598,7 @@ icon-items-link:focus .team-icons,
 }
 
 .filter-list .filter-list-item + .filter-list-item {
-  margin-left: 30px;
+  margin-left: 8px;
 }
 
 .project-list .container {
